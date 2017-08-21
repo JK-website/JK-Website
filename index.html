@@ -3,30 +3,120 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>ZhangJiKe Website</title>
-		
-		<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
-		<script type="text/javascript">
-			myFocus.set({
-	          id:'myFocus',//ID
-	          pattern:'mF_kdui',
-	          time:3,
-	          trigger:'mouseover',
-	          width:1918,
-	          height:862
-});
-		</script>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
 	</head>
 	<body>
-<div id="myFocus"><!--焦点图盒子-->
-  <div class="loading"><img src="img/loading.gif" alt="请稍候..." /></div><!--载入画面(可删除)-->
-  <div class="pic"><!--图片列表-->
-  	<ul>
-        <li><a href="#1"><img src="img/banner01.png" thumb="" alt="图片1来源于网络，版权属于作者" text="图片1更详细的描述文字" /></a></li>
-        <li><a href="#2"><img src="img/banner02.png" thumb="" alt="版权属于作者，图片2来源于网络" text="图片2更详细的描述文字" /></a></li>
-        <li><a href="#3"><img src="img/banner03.png" thumb="" alt="图片3来源于网络，版权属于作者" text="图片3更详细的描述文字" /></a></li>
-        
-  	</ul>
-  </div>
-</div>
-</body>
+	   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1"></li>
+           <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>   
+       <div class="carousel-inner">
+         <div class="item active">
+            <img src="img/banner01.png" alt="First slide" class="img-responsive">
+         </div>
+         <div class="item">
+            <img src="img/banner02.png" alt="Second slide" class="img-responsive">
+         </div>
+         <div class="item">
+            <img src="img/banner03.png" alt="Third slide" class="img-responsive">
+         </div>
+       </div>
+      </div>
+      <div class="wrapper_news">
+		<div class="wrapper_news_title">
+		  <span style="font-size: 20px; font-weight: bold; color:#1f1e1e;font-family: '微软雅黑';">资讯</span>
+		</div>
+		<div class="wrapper_news_nav">
+		  <span class="nav_03">全部</span>
+		  <span class="nav_03">活动</span>
+		  <span class="nav_03">综艺</span>
+		  <span class="nav_03">投票</span>
+		  <span class="nav_03">新闻</span>
+		  <span class="nav_04">文章</span>
+		</div>
+	  </div>
+	  <div class="wrapper_content_1">
+		 	<div class="wrapper_content_1_pic">
+		 		<img src="img/athelete.png" alt="运动员势力榜">
+		 	</div>
+		 	<div class="wrapper_content_1_breif"> 
+		 		<span class="breif_01">我已为张继科投票！快来为你支持的体育明星提高排名吧！O运动员势力榜</span>
+		 		<span class="breif_02">2017-07-19</span>
+		 		<span class="breif_03">一起为继科投票吧！~</span>
+		 	</div>
+		 </div>
+		  <div class="wrapper_content_1">
+		 	<div class="wrapper_content_1_pic">
+		 		<img src="img/pet.png" alt="萌主来了">
+		 	</div>
+		 	<div class="wrapper_content_1_breif"> 
+		 		<span class="breif_01">《萌主来了》最后一集，赶紧来看双科组合~</span>
+		 		<span class="breif_02">2017-07-18</span>
+		 		<span class="breif_03">科科与德牧科科现场模拟废墟搜救，状况频出！</span>
+		 	</div>
+		 </div>
+		  <div class="wrapper_content_1">
+		 	<div class="wrapper_content_1_pic">
+		 		<img src="img/singer01.png" alt="跨界歌王">
+		 	</div>
+		 	<div class="wrapper_content_1_breif"> 
+		 		<span class="breif_01">《跨界歌王》阿科燃翻全场！</span>
+		 		<span class="breif_02">2017-07-01</span>
+		 		<span class="breif_03">阿科低吟成都，送给陪伴他多年的肖爸~</span>
+		 	</div>
+		 </div>
+		  <div class="wrapper_content_1">
+		 	<div class="wrapper_content_1_pic">
+		 		<img src="img/singer02.png" alt="跨界歌王">
+		 	</div>
+		 	<div class="wrapper_content_1_breif"> 
+		 		<span class="breif_01">《跨界歌王》阿科燃翻全场！</span>
+		 		<span class="breif_02">2017-07-08</span>
+		 		<span class="breif_03">成都的肖爸最喜欢的队员——夜空中最亮的科科，不再犹豫，不会改变，命运还是巧合，真的爱你！！！</span>
+		 	</div>
+		 </div>
+		  <div class="wrapper_footer">
+		   <div class="footer_content">
+		 	<span class="active span_content"><a href="#" style="color:#F5F6F7">1</a></span>
+		 	<span class="span_content"><a href="#">2</a></span>
+		 	<span class="span_content"><a href="#">3</a></span>
+		 	<span class="span_content"><a href="#">4</a></span>
+		 	<span class="span_content"><a href="#">5</a></span>
+		 	<span class="span_content"><a href="#">6</a></span>
+		 	<span><a href="#">...</a></span>
+		 	<span class="span_content"><a href="#">10</a></span>
+		   </div><br />
+		 </div> 
+		 <div class="footer_return">
+		   <img src="img/return_top.png">
+		 </div>
+		 <div class="footer_pro">
+		 	<div class="footer_img">
+		 	  <img src="img/footer_pro.png" class="img-responsive" alt="张继科">
+		 	</div>
+		 	<div class="footer_intro">
+		 		<p class="intro_title">PROFILE</p>
+		 		<p class="intro_breif">简介</p>
+		 		<p class="intro_divide"><img src="img/hengxian.png"></p>
+		 		<div style="width:450px;margin-bottom: 30px;">
+		 			<p class="intro_text">张继科，男，汉族，1988年2月16日出生于山东省青岛市，中国男子乒乓球队队员。
+		 				他是乒坛历史上第七位大满贯选手，也是继刘国梁、孔令辉后的中国男乒史上第三位大满贯选手。
+		 			</p>
+		 		</div>
+		 		<div class="intro_link">
+		 			<a href="#" style="color: white;font-size: 20px;">了解更多</a>
+		 		</div>
+		 	</div>
+		 	
+		 </div>
+		<div class="footer_wrapper">
+		  <div class="footer_title"><p style="font-family: arial;font-weight: bold;font-size: 20px;">照片和视频</p></div>
+		</div>
+    </body>
 </html>
